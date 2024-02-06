@@ -4,14 +4,17 @@ namespace ab
 { namespace primitives
 {
 
-#define i8    Sint8
-#define i16   Sint16
-#define i32   Sint32
-#define i64   Sint64
-#define u8    Uint8
-#define u16   Uint16
-#define u32   Uint32
-#define u64   Uint64
+typedef Sint8      i8;
+typedef Sint16     i16;
+typedef Sint32     i32;
+typedef Sint64     i64;
+typedef Uint8      u8;
+typedef Uint16     u16;
+typedef Uint32     u32;
+typedef Uint64     u64;
+
+typedef intptr_t   isize;
+typedef uintptr_t  usize;
 
 #define ptr   void*
 #define null  NULL
