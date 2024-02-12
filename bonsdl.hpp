@@ -6,7 +6,7 @@ namespace ab
 { namespace box
 {
 
-sub int box_main(int argc, char** argv);
+sub int onsdl_main(int, char**);
 
 } // space: box
 } // space: ab

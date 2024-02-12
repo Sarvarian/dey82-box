@@ -4,9 +4,11 @@
 
 namespace ab
 { namespace box
+{ namespace life
 {
 
-sub int box_main(int argc, char** argv);
+sub int life_main(int, char**);
 
+} // space: life
 } // space: box
 } // space: ab

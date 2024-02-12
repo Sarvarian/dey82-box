@@ -27,6 +27,8 @@ typedef uintptr_t  usize;
 #define proc  void
 #define func
 
-}
+} // space: primitives
+
 using namespace primitives;
-}
+
+} // space: ab
